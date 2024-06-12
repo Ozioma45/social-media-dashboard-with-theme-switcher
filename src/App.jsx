@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
+import Follower from "./components/Follower";
 
 export default function App() {
   const [theme, setTheme] = useState(null);
@@ -27,8 +28,9 @@ export default function App() {
   return (
     <>
       <div className="bg-white text-white min-h-screen dark:bg-vedarkblueB pt-5">
-        <div className="max-w-5xl mx-auto w-11/12 pt-5">
+        <div className="max-w-5xl mx-auto w-11/12">
           <Header theme={theme} handleThemeSwitch={handleThemeSwitch} />
+          <Follower />
         </div>
       </div>
     </>

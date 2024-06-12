@@ -3,9 +3,9 @@ import { FaCircle } from "react-icons/fa";
 
 const Header = ({ theme, handleThemeSwitch }) => {
   return (
-    <div id="Header" className="w-full justify-between pt-5 block md:flex">
+    <div id="Header" className="w-full justify-between block md:flex">
       <div>
-        <h1 className="text-2xl font-bold text-black">
+        <h1 className="text-2xl font-bold text-black dark:text-white">
           Social Media Dashboard
         </h1>
         <p className="dark:text-desBlue text-dagrayblue font-bold text-sm">
