@@ -14,7 +14,7 @@ const FollowersCard = ({
 
   return (
     <div
-      className={`dark:bg-darkdesblue bg-ligrayblue rounded-lg overflow-hidden shadow-lg p-6 ${
+      className={`dark:bg-darkdesblue bg-eblue rounded-lg overflow-hidden shadow-lg hover:bg-ligrayblue dark:hover:bg-vedarkblueT cursor-pointer p-6 ${
         isGradient ? "" : "border-t-4"
       }`}
       style={
@@ -43,7 +43,7 @@ const FollowersCard = ({
           alt={trend === "up" ? "Upward trend" : "Downward trend"}
           className="w-2 h-2 mr-2 "
         />
-        <span className="text-xs">{trendCount} Today</span>
+        <span className="text-xs font-bold">{trendCount} Today</span>
       </div>
     </div>
   );
