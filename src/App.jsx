@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Follower from "./components/Follower";
+import OverviewToday from "./components/Overviews";
 
 export default function App() {
   const [theme, setTheme] = useState(null);
@@ -31,6 +32,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto w-11/12">
           <Header theme={theme} handleThemeSwitch={handleThemeSwitch} />
           <Follower />
+          <OverviewToday />
         </div>
       </div>
     </>
