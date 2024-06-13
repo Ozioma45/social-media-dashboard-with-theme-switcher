@@ -22,7 +22,7 @@ export default {
         white: "hsl(0, 0%, 100%)",
         vedarkblueB: "hsl(230, 17%, 14%)",
         desBlue: "hsl(228, 34%, 66%)",
-        vepaleblue: "hsl(225, 100%, 98%)",
+        eblue: "hsl(225, 100%, 98%)",
         ligrayblue: "hsl(227, 47%, 96%)",
         dagrayblue: "hsl(228, 12%, 44%)",
       },
