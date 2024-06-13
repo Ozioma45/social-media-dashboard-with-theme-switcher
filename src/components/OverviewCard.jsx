@@ -3,7 +3,7 @@ import { iconDown, iconUp } from "../assets/index";
 
 const OverviewCard = ({ icon, metric, count, trend, trendCount }) => {
   return (
-    <div className="rounded-lg overflow-hidden shadow-lg p-6 dark:bg-darkdesblue bg-white hover:bg-ligrayblue dark:hover:bg-vedarkblueB">
+    <div className="rounded-lg overflow-hidden shadow-lg p-6 dark:bg-darkdesblue bg-eblue hover:bg-ligrayblue dark:hover:bg-vedarkblueB">
       <div className="flex items-center justify-between mb-4">
         <div className="flex  w-full justify-between">
           <span className="text-xs font-bold text-gray-500">{metric}</span>
